@@ -1,0 +1,82 @@
+﻿
+ section#third {
+            width: 100%;
+            background-color: #e5eaea;
+            position: relative;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+            section#third section {
+                width: 100%;
+                height: 50%;
+                position: relative;
+                background-color: #e5eaea;
+                margin-left: 100px;
+                margin-bottom: 15px;
+                margin-top:15px;
+            }
+
+                section#third section + section {
+                    margin-bottom: 10px;
+                }
+
+                section#third section figure {
+                    width: 350px;
+                    height: 210px;
+                    background-color: #fff;
+                    display: inline-block;
+                    position: relative;
+                    margin-right:15px;
+                }
+
+            section#third figure img {
+                width: 100%;
+                height: 160px;
+                background-color: aquamarine;
+                margin-bottom: -4px;
+                position: relative;
+            }
+
+            section#third figure figcaption {
+                width: 100%;
+                height: 50px;
+                background-color: burlywood;
+                position: relative;
+            }
+
+                section#third figure figcaption div {
+                    width: 350px;
+                    height: 50px;
+                    position: relative;
+                    background-color: #fff;
+                    line-height:25px;
+                }
+
+                    section#third figure figcaption div div {
+                        height: 20px;
+                        width: 180px;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        background-color: #fff;
+                    }
+
+                        section#third figure figcaption div div img {
+                            width: 26px;
+                            background-color: yellow;
+                            display: inline-block;
+                            height: 20px;
+                            margin-bottom: 1px;
+                        }
+
+                        section#third figure figcaption div div div {
+                            height: 18px;
+                            width: 25px;
+                            background-color: #fff;
+                            position: relative;
+                            display: inline-block;
+                            margin-bottom: 1px;
+                            bottom:6px;
+                        }
